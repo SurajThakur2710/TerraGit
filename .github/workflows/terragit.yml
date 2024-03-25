@@ -27,6 +27,3 @@ jobs:
       - name: Terraform Apply
         run: terraform apply -auto-approve
 
-      - name: Output State File Path
-        id: output-state-file
-        run: echo "::set-output name=stateFilePath::terraform.tfstate"
