@@ -11,6 +11,6 @@ resource "aws_iam_policy" "example_policy" {
 
 resource "aws_iam_policy_attachment" "example_attachment" {
   name       = "example-attachment"
-  users      = [aws_iam_user.example_user.name]
+  users      = [aws_iam_user.name.name]
   policy_arn = aws_iam_policy.example_policy.arn
 }
