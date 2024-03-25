@@ -13,3 +13,4 @@ policy_document     = <<EOF
   ]
 }
 EOF
+users = [ "arn:aws:iam::381492165249:user/suraj_thakur" ]
